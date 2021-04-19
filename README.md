@@ -14,12 +14,14 @@
 ```javascript
 //data-src 放需要加载的高清图
 //src 放模糊小图
+//class 必须加上 qs-progressive-image 插件会自动寻找有该类的标签进行渐进图片处理
 <img class="qs-progressive-image" data-src="./1920x640.jpg" src="./192x64.jpg" alt="">
 ```
 
 div 背景图的用法
 ```javascript
 //data-src 放需要加载的高清图
-//src 放模糊小图
+//background-image url 放模糊小图
+//class 必须加上 qs-progressive-image 插件会自动寻找有该类的标签进行渐进图片处理
 <div class="qs-progressive-image" data-src="./1920x640.jpg" style="background-image: url(./192x64.jpg);" alt="">
 ```
